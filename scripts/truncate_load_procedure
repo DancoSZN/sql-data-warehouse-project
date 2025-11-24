@@ -41,6 +41,9 @@ BEGIN
 		   FIELDTERMINATOR = ',',
 		   TABLOCK 
 		);
+		PRINT '=================================='
+		PRINT'Loading ERP TABLES'
+		PRINT '=================================='
 		PRINT '>> Truncationg Table : bronze.erp_cust_az12'
 		TRUNCATE TABLE bronze.erp_cust_az12;
 		PRINT '>> Inserting Data into : bronze.erp_cust_az12'
